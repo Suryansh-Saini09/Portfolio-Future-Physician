@@ -28,9 +28,9 @@ const Education = () => {
         <div ref={titleRef} className={`text-center mb-20 transition-all duration-1000 ${
           titleVisible ? 'opacity-100 translate-y-0' : 'opacity-0 translate-y-10'
         }`}>
-          <h2 className="text-5xl md:text-6xl font-bold bg-gradient-primary bg-clip-text text-blue-900  mb-6">
+          {/* <h2 className="text-5xl md:text-6xl font-bold bg-gradient-primary bg-clip-text text-blue-900  mb-6">
             Education
-          </h2>
+          </h2> */}
           <div className="w-32 h-1.5 bg-gradient-primary mx-auto rounded-full mb-8"></div>
           <p className="text-xl text-foreground max-w-3xl mx-auto">
             Building a strong academic foundation for future medical career
